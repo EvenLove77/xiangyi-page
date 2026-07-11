@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>相倚且相依 — 情侣专属生活记录</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+    color: #333; background: #FAFAFA; line-height: 1.8;
+  }
+  .hero {
+    text-align: center; padding: 80px 20px 60px;
+    background: linear-gradient(160deg, #FFF0F0 0%, #FFF8F0 50%, #FFF0F8 100%);
+  }
+  .hero h1 { font-size: 42px; font-weight: 800; color: #D4302B; margin-bottom: 16px; letter-spacing: 4px; }
+  .hero p  { font-size: 18px; color: #888; max-width: 420px; margin: 0 auto; }
+  .hero .badge { display: inline-block; margin-top: 24px; padding: 8px 24px;
+    background: #D4302B; color: #FFF; border-radius: 24px; font-size: 14px; font-weight: 600; }
+
+  .features { max-width: 700px; margin: 60px auto; padding: 0 24px; }
+  .features h2 { text-align: center; font-size: 28px; margin-bottom: 40px; }
+  .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .feat-item {
+    background: #FFF; border-radius: 16px; padding: 32px 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04); text-align: center;
+  }
+  .feat-icon { font-size: 40px; margin-bottom: 12px; }
+  .feat-item h3 { font-size: 18px; margin-bottom: 8px; font-weight: 700; }
+  .feat-item p  { font-size: 14px; color: #999; }
+
+  .showcase { max-width: 700px; margin: 0 auto 60px; padding: 0 24px; }
+  .showcase h2 { text-align: center; font-size: 28px; margin-bottom: 32px; }
+  .screen-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .screen-card {
+    width: 160px; background: #FFF; border-radius: 20px; padding: 20px 12px;
+    text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .screen-card .sc-emoji { font-size: 36px; margin-bottom: 8px; }
+  .screen-card .sc-title { font-size: 14px; font-weight: 700; color: #555; }
+
+  .footer {
+    text-align: center; padding: 32px 20px;
+    border-top: 1px solid #EEE; background: #FFF;
+    font-size: 13px; color: #999;
+  }
+  .footer a { color: #999; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .footer a:hover { color: #D4302B; }
+  .footer img { height: 24px; }
+
+  @media (max-width: 500px) {
+    .feature-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>相倚且相依</h1>
+  <p>专为情侣打造的生活记录与共享工具<br>记录每一个值得珍藏的瞬间</p>
+  <span class="badge">微信小程序已上线</span>
+</div>
+
+<div class="features">
+  <h2>核心功能</h2>
+  <div class="feature-grid">
+    <div class="feat-item">
+      <div class="feat-icon">📷</div>
+      <h3>拾光相册</h3>
+      <p>发布动态、上传照片，记录你们在一起的每一天</p>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon">💰</div>
+      <h3>共同记账</h3>
+      <p>情侣共享账单，智能分类统计，随时了解花销</p>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon">📅</div>
+      <h3>纪念日时光</h3>
+      <p>支持公历和农历，生日、纪念日、事件永不忘记</p>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon">📍</div>
+      <h3>足迹地图</h3>
+      <p>收藏一起去过的城市，留下共同的旅行回忆</p>
+    </div>
+  </div>
+</div>
+
+<div class="showcase">
+  <h2>页面展示</h2>
+  <div class="screen-row">
+    <div class="screen-card"><div class="sc-emoji">📸</div><div class="sc-title">拾光</div></div>
+    <div class="screen-card"><div class="sc-emoji">🌟</div><div class="sc-title">同愿</div></div>
+    <div class="screen-card"><div class="sc-emoji">📊</div><div class="sc-title">同账</div></div>
+    <div class="screen-card"><div class="sc-emoji">📅</div><div class="sc-title">时光</div></div>
+    <div class="screen-card"><div class="sc-emoji">💑</div><div class="sc-title">我俩</div></div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">
+    <img src="https://static.upyun.com/upyun/logo/upyun-logo.png" alt="又拍云">
+  </a>
+  <span>提供 CDN 加速 / 云存储服务</span>
+</div>
+
+</body>
+</html>

@@ -1,29 +1,24 @@
-# 相倚且相依 — 项目主页
+# 相倚且相依
 
-## GitHub Pages 部署步骤
+> 专为情侣打造的生活记录与共享工具 · 微信小程序
 
-### 1. 创建公开仓库
-在 GitHub 新建一个**公开**仓库，名字随意（如 `xiangyi-page`）
+## 简介
 
-### 2. 上传文件
-```bash
-cd github-pages
-git init
-git add index.html
-git commit -m "init"
-git branch -M main
-git remote add origin git@github.com:你的用户名/xiangyi-page.git
-git push -u origin main
-```
+相倚且相依是一款微信小程序，帮助情侣记录和管理共同生活的点滴。
 
-### 3. 启用 GitHub Pages
-- 进入仓库 → Settings → Pages
-- Source: `Deploy from a branch`
-- Branch: `main`，目录选 `/ (root)`
-- 点 Save
+在这里，你们可以：
+- 📷 **拾光** — 发布动态、上传照片，记录每一个值得珍藏的瞬间
+- 🌟 **同愿** — 一起写下愿望清单，见证彼此的心愿实现
+- 📊 **同账** — 共同记账，智能分类统计，随时了解花销
+- 📅 **时光** — 纪念日管理，支持公历和农历，生日节日永不忘记
+- 💑 **我俩** — 情侣空间，专属主题风格，查看共同数据
 
-### 4. 等待部署
-几分钟后访问 `https://你的用户名.github.io/xiangyi-page/`
+## 技术栈
 
-### 5. 提交又拍云联盟申请
-把这个地址填到又拍云联盟申请表的「网站地址」栏，截图发给审核。
+- 前端：微信小程序原生框架 + Skyline 渲染引擎 + TypeScript
+- 后端：Spring Boot + MyBatis-Plus + MySQL
+- 部署：Docker + 轻量云服务器
+
+## 联系我们
+
+如需反馈或建议，请通过小程序内的反馈渠道联系开发者。
